@@ -70,7 +70,8 @@ a  { text-decoration: none;}
     }
 .mailtel:hover:hover,
 .mailtel:focus {color: #404bbf;}
-.solution {background-color: #2e2f42;}
+.solution {background-color: #2e2f42;
+    padding: 188px 0;}
 .main-solution {
     line-height: 1.07;
     font-family: Roboto;
@@ -79,6 +80,8 @@ a  { text-decoration: none;}
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto 48px auto;
     }
     .button {font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -87,7 +90,14 @@ a  { text-decoration: none;}
         letter-spacing: 0.04em;
         background-color: #4D5AE5;
         color: #ffffff;
-        cursor: pointer
+        cursor: pointer;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        margin: 0 auto;
+        padding: 16px 32px;
         }
     .button:hover,
     .button:focus{background-color: #404BBF;}
