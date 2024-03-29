@@ -1,7 +1,19 @@
+img {display: block;}
+.header {border-bottom: 1px solid #e7e9fc;}
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
 body {font-family: "Roboto",  sans-serif;
       color: #434455;
       background-color: #ffffff;}
-      .container { 
+.container { 
         max-width: 1158px;
         padding-left: 15px;  
         padding-right: 15px; 
@@ -9,6 +21,10 @@ body {font-family: "Roboto",  sans-serif;
         margin-right: auto; 
         }
 ul {list-style-type: none;}
+.header-list {
+    display: flex;
+    gap: 40px;
+}
 a  { text-decoration: none;}
 .logo {font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -16,7 +32,9 @@ a  { text-decoration: none;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5
+    color: #4D5AE5;
+    display: flex;
+    margin-right: 76px;
 }
 .studio {font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -32,9 +50,15 @@ a  { text-decoration: none;}
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        padding: 24px 0;
         }
      .menu:hover,
      .menu:focus {color: #404bbf;}
+     .add-list {
+        display: flex;
+        gap: 40px;
+
+    }
 .address-list {font-style: normal;}
 .mailtel {
     font-family: "Roboto", sans-serif;
