@@ -1,6 +1,13 @@
 body {font-family: "Roboto",  sans-serif;
       color: #434455;
       background-color: #ffffff;}
+      .container { 
+        max-width: 1158px;
+        padding-left: 15px;  
+        padding-right: 15px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        }
 ul {list-style-type: none;}
 a  { text-decoration: none;}
 .logo {font-family: "Raleway", sans-serif;
