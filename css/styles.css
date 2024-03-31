@@ -205,6 +205,7 @@ margin-bottom: 72px;
         letter-spacing: 0.02em;
         text-align: left;
         color: #F4F4FD;
+        max-width: 264px;
         }
         .our-portfolio {
             padding-top: 120px;
@@ -237,3 +238,4 @@ margin-bottom: 72px;
     display: inline-block;
     margin-right: 76px;
     margin-bottom: 16px}
+    
