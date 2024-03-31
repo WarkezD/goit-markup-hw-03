@@ -101,6 +101,26 @@ a  { text-decoration: none;}
         }
     .button:hover,
     .button:focus{background-color: #404BBF;}
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+      .main-team{
+        display: flex;
+        gap: 24px;
+      }
+      .main-team-list{
+        width: calc((100% - 72px) / 4);
+      }
+    .team-container {padding: 120px 0;}
     .team-list {
         font-family: "Roboto", sans-serif;
         font-size: 20px;
@@ -109,6 +129,7 @@ a  { text-decoration: none;}
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
+        margin-bottom: 8px;
         }
         .team-goal {
             font-family: "Roboto", sans-serif;
